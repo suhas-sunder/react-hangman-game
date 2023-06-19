@@ -17,7 +17,9 @@ function App() {
       <div className={Styles["text-result"]}>Lose Win</div>
       <HangmanDrawing />
       <HangmanWord />
-      <Keyboard />  
+      <div className={Styles.placeholder}>
+        <Keyboard />
+      </div>
     </div>
   );
 }
